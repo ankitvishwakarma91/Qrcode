@@ -1,0 +1,14 @@
+#import module qrcode 
+#install this module in your command promt type pip install qrcode
+import qrcode
+
+#Below line show that you change boxsize and border
+feature = qrcode.QRCode(version = 1,box_size = 3,border = 4)
+
+#Below line show that what you want to make. 
+show_Data = qrcode.make('Write whatever you want to make or paste link here to appear in your qrcode.')
+
+#Below line show that you save your qrcode with png form or jpge form. in bracket section you name a image which is generate and its formate like .png or jpge.
+show_Data.save("imag.png")
+
+#Thank you and follow for more.
